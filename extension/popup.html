@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Trello Card Edit History</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      p {
+        display: none;
+      }
+
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Trello Card Edit History</h1>
+
+    <p id="valid">
+      <a id="history_url" href="#" target="_blank">View history</a>
+    </p>
+
+    <p id="invalid">
+      The current tab does not appear to point to a valid Trello card link.
+    </p>
+
+    <p style="display: block;">
+      Official help article: <a href="http://help.trello.com/article/783-recovering-the-description-of-a-card-that-has-been-changed" target="_blank">Recovering the description of a card that has been changed</a>
+    </p>
+  </body>
+</html>
